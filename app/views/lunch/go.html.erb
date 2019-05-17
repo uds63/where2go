@@ -1,3 +1,7 @@
 <h1><%=@recommend.name %>にでも行きますか。</h1>
-<h2>住所</h2>
-<%=@recommend.address %>
+<ul>
+  <li>住所<%=@recommend.address %></li>
+  <li>電話番号<%=@recommend.tel %></li>
+  <li>定休日<%=@recommend.holiday %></li>
+  <li>開店時間<%=@recommend.open %> ~ <%=@recommend.close %></li>
+</ul>
